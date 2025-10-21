@@ -20,46 +20,6 @@ Convit3 Digital é uma plataforma inovadora projetada para simplificar e moderni
 
 A plataforma vai além, permitindo que os organizadores acompanhem, em tempo real, as confirmações de presença (RSVP), o que garante um controle detalhado e eficiente do planejamento do evento. Com a aplicação Convit3 Digital, você tem à disposição uma solução completa para gerenciar seus eventos de forma moderna, organizada e sem complicações, transformando a experiência de convidar em algo prático e inesquecível.
 
-## 🖥️ Como rodar este projeto 🖥️
-
-### Requisitos:
-
-- Node.js instalado
-- PostgreSQL configurado
-
-### Execução:
-
-1. Clone este repositório:
-
-   ```sh
-   git clone https://github.com/gabscarlos/convite-digital.git
-   ```
-
-2. Acesse o diretório do projeto:
-
-   ```sh
-   cd convit3-digital
-   ```
-
-3. Instale as dependências com o comando a seguir na pasta raiz do projeto:
-
-   ```sh
-   yarn install
-   ```
-
-4. Configure as variáveis de ambiente:
-
-   Será necessário criar um arquivo `.env` com as mesmas variáveis de ambiente listadas no arquivo `.env.example` nas pastas `apps/frontend` e `apps/backend`. Cada um desses arquivos deverá ser preenchido com as variáveis de ambiente correspondentes e exemplificadas no arquivo `.env.example` de cada pasta.
-
-5. Execute as migrações do banco rodando o comando a seguir na pasta prisma que se localiza dentro da pasta `app/backend`:
-
-   ```sh
-   npx prisma migrate dev
-   ```
-
-6. Inicie a aplicação rodando o comando `yarn dev` na pasta raiz da sua aplicação. Esse comando iniciará todos os projetos da sua aplicação.
-
-7. Acesse o projeto em [http://localhost:3000](http://localhost:3000).
 
 ## 🗒️ Features do projeto 🗒️
 
